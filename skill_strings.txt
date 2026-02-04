@@ -20,7 +20,7 @@ Attune to the Earth
 
 entangling_grasp
 Entangling Grasp
-Transform the roots and vines around you, ~lg~Rooting~/~ an enemy up to two tiles away.\\nDoesn't work on enemies immune to ~w~Nets~/~ or ~w~Webbing~/~.
+Transform the roots and vines around you, ~lg~Rooting~/~ an enemy up to ~w~5~/~ tiles away.\\nDoesn't work on enemies immune to ~w~Nets~/~ or ~w~Webbing~/~.
 
 bestial_vigor
 Bestial Vigor
@@ -40,7 +40,7 @@ Crush a newly hatched butterfly, transforming its remains into a ~y~Swarm of Dea
 
 circle_of_life
 Circle of Life
-Grants ~lg~+10~/~ Max Health and ~lg~10%~/~ Fatigue Resistance.\\nGrants ~lg~2%~/~ Health Restoration for each missing ~r~percent~/~ of Health.
+Grants ~lg~+10~/~ Max Health and ~lg~10%~/~ Fatigue Resistance.\\nGrants ~lg~2%~/~ Healing Efficiency and Health Restoration for each missing ~r~percent~/~ of Health.
 
 healing_grace
 Healing Grace
