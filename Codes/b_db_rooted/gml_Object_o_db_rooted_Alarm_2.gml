@@ -9,6 +9,7 @@ with (target)
     ds_map_add(other.data, "PRR", -50)
     ds_map_add(other.data, "Block_Recovery", -0.5 * Block_Recovery)
     ds_map_add(other.data, "CTA", -50)
+    ds_map_add(other.data, "Fire_Resistance", -50)
     
     if (object_index == o_harpy)
         scr_enemy_change_form(s_harpy)
