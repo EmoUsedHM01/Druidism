@@ -14,4 +14,4 @@ with (target)
 net = scr_onUnitEffectDestroy(net)
 
 with (target)
-    scr_simple_particles_create(s_roasterparts, 5, false)
+    scr_simple_particles_create(s_netparts, 5, false)
