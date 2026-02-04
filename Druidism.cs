@@ -885,9 +885,7 @@ namespace Druidism
 
             Msl.LoadGML("gml_Object_o_inv_herbarium_Create_0")
                 .MatchAll()
-                .InsertBelow(
-                    "sk" +
-                    "ills_array = global.druidism_tier1")
+                .InsertBelow("skills_array = global.druidism_tier1")
                 .Save();
 
             Msl.LoadGML("gml_Object_o_npc_herbalist_osbrook_Create_0")
@@ -928,7 +926,7 @@ namespace Druidism
             try 
             {
                 Msl.LoadGML("gml_Object_o_enemyTransitionsController_Other_11")
-                    .MatchFrom("else if instance_exists(o_player)")
+                    .MatchFrom("instance_exists(o_player)")
                     .InsertBelow("")
                     .Save();
             }
@@ -1147,7 +1145,7 @@ namespace Druidism
             tempSprite.SVersion = 3;
             tempSprite.GMS2PlaybackSpeed = 0.3f;
 
-            // Animation insertions for our custom skills
+            // Animation insertions for Celestial Strike
             tempSprite = Msl.GetSprite("s_spell_celestial_strike");
             tempSprite.OriginX = 24;
             tempSprite.OriginY = 12;
