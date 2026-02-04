@@ -422,34 +422,14 @@ namespace Druidism
             static IEnumerable<string> BuffsIterator(IEnumerable<string> input)
             {
                 string name =
-                    "\"o_b_wild_shape;" +
-                    "Звериная форма;" +
-                    "Wild Shape;" +
-                    "野性变形;" +
-                    "Tiergestalt;" +
-                    "Forma Salvaje;" +
-                    "Forme Sauvage;" +
-                    "Forma Selvatica;" +
-                    "Forma Selvagem;" +
-                    "Dzika Forma;" +
-                    "Vahşi Biçim;" +
-                    "野獣化;" +
-                    "야성 변신;\",";
+                    "\"o_b_wild_shape;Звериная форма;Wild Shape;野性变形;Tiergestalt;Forma Salvaje;Forme Sauvage;Forma Selvatica;Forma Selvagem;Dzika Forma;Vahşi Biçim;野獣化;야성 변신;\"," +
+                    "\"o_db_rooted;Обездвижен;Rooted;定身;Verwurzelt;Enraizado;Enraciné;Radicato;Enraizado;Unieruchomiony;Kök Salmış;拘束;속박;\"," +
+                    "";
 
                 string desc =
-                    "\"o_b_wild_shape;" +
-                    "Вы находитесь в форме Дикого Облика. Вы не можете использовать ~r~Оружие~/~ или ~r~Заклинания~/~.\\nПри окончании ~b~Энергии~/~ или повторном применении навыка вы возвращаетесь в человеческую форму.;" +
-                    "You are in your Wild Shape form. You cannot use your ~r~Weapons~/~ or ~r~Spells~/~.\\nRunning out of ~b~Energy~/~ or casting the skill again returns you to human form.;" +
-                    "你处于野性变形状态，无法使用~r~武器~/~或~r~法术~/~。\\n当~b~能量~/~耗尽或再次施放该技能时，你将恢复为人形。;" +
-                    "Du befindest dich in deiner Wildgestalt. Du kannst keine ~r~Waffen~/~ oder ~r~Zauber~/~ benutzen.\\nWenn deine ~b~Energie~/~ erschöpft ist oder du die Fähigkeit erneut wirkst, kehrst du in menschliche Gestalt zurück.;" +
-                    "Te encuentras en tu forma de Forma Salvaje. No puedes usar ~r~Armas~/~ ni ~r~Hechizos~/~.\\nAl quedarte sin ~b~Energía~/~ o usar la habilidad de nuevo, vuelves a tu forma humana.;" +
-                    "Vous êtes sous votre forme de Métamorphose Sauvage. Vous ne pouvez pas utiliser vos ~r~Armes~/~ ni vos ~r~Sorts~/~.\\nLorsque votre ~b~Énergie~/~ est épuisée ou si vous relancez la compétence, vous redevenez humain.;" +
-                    "Sei nella tua forma di Metamorfosi Selvaggia. Non puoi usare ~r~Armi~/~ né ~r~Incantesimi~/~.\\nQuando l’~b~Energia~/~ si esaurisce o riusi l’abilità, torni umano.;" +
-                    "Você está em sua forma de Forma Selvagem. Não pode usar ~r~Armas~/~ nem ~r~Feitiços~/~.\\nAo ficar sem ~b~Energia~/~ ou usar a habilidade novamente, retorna à forma humana.;" +
-                    "Jesteś w formie Dzikiej Przemiany. Nie możesz używać ~r~Bróni~/~ ani ~r~Zaklęć~/~.\\nGdy skończy się ~b~Energia~/~ lub użyjesz umiejętności ponownie, wracasz do ludzkiej postaci.;" +
-                    "Vahşi Biçimdesin. ~r~Silahları~/~ veya ~r~Büyüleri~/~ kullanamazsın.\\n~b~Enerji~/~ bittiğinde veya yeteneği tekrar kullandığında insan formuna dönersin.;" +
-                    "野性形態になっている。~r~武器~/~や~r~魔法~/~は使用できない。\\n~b~エネルギー~/~が尽きるか、再度スキルを使用すると人間の姿に戻る。;" +
-                    "야성 형태에 들어간 상태입니다. ~r~무기~/~ 및 ~r~주문~/~을 사용할 수 없습니다.\\n~b~에너지~/~가 소진되거나 스킬을 다시 사용하면 인간 형태로 돌아옵니다.;\",";
+                    "\"o_b_wild_shape;Вы находитесь в форме Дикого Облика. Вы не можете использовать ~r~Оружие~/~ или ~r~Заклинания~/~.\\nПри окончании ~b~Энергии~/~ или повторном применении навыка вы возвращаетесь в человеческую форму.;You are in your Wild Shape form. You cannot use your ~r~Weapons~/~ or ~r~Spells~/~.\\nRunning out of ~b~Energy~/~ or casting the skill again returns you to human form.;你处于野性变形状态，无法使用~r~武器~/~或~r~法术~/~。\\n当~b~能量~/~耗尽或再次施放该技能时，你将恢复为人形。;Du befindest dich in deiner Wildgestalt. Du kannst keine ~r~Waffen~/~ oder ~r~Zauber~/~ benutzen.\\nWenn deine ~b~Energie~/~ erschöpft ist oder du die Fähigkeit erneut wirkst, kehrst du in menschliche Gestalt zurück.;Te encuentras en tu forma de Forma Salvaje. No puedes usar ~r~Armas~/~ ni ~r~Hechizos~/~.\\nAl quedarte sin ~b~Energía~/~ o usar la habilidad de nuevo, vuelves a tu forma humana.;Vous êtes sous votre forme de Métamorphose Sauvage. Vous ne pouvez pas utiliser vos ~r~Armes~/~ ni vos ~r~Sorts~/~.\\nLorsque votre ~b~Énergie~/~ est épuisée ou si vous relancez la compétence, vous redevenez humain.;Sei nella tua forma di Metamorfosi Selvaggia. Non puoi usare ~r~Armi~/~ né ~r~Incantesimi~/~.\\nQuando l’~b~Energia~/~ si esaurisce o riusi l’abilità, torni umano.;Você está em sua forma de Forma Selvagem. Não pode usar ~r~Armas~/~ nem ~r~Feitiços~/~.\\nAo ficar sem ~b~Energia~/~ ou usar a habilidade novamente, retorna à forma humana.;Jesteś w formie Dzikiej Przemiany. Nie możesz używać ~r~Bróni~/~ ani ~r~Zaklęć~/~.\\nGdy skończy się ~b~Energia~/~ lub użyjesz umiejętności ponownie, wracasz do ludzkiej postaci.;Vahşi Biçimdesin. ~r~Silahları~/~ veya ~r~Büyüleri~/~ kullanamazsın.\\n~b~Enerji~/~ bittiğinde veya yeteneği tekrar kullandığında insan formuna dönersin.;野性形態になっている。~r~武器~/~や~r~魔法~/~は使用できない。\\n~b~エネルギー~/~が尽きるか、再度スキルを使用すると人間の姿に戻る。;야성 형태에 들어간 상태입니다. ~r~무기~/~ 및 ~r~주문~/~을 사용할 수 없습니다.\\n~b~에너지~/~가 소진되거나 스킬을 다시 사용하면 인간 형태로 돌아옵니다.;\"," +
+                    "\"o_db_rooted;~r~Невозможность перемещения~/~##Пропуск хода ~lg~уменьшает~/~ длительность эффекта на несколько ходов (в зависимости от ~sy~силы~/~ и ~sy~ловкости~/~).;~r~Can't move to other tiles~/~.##Skipping a turn ~lg~reduces~/~ the effect's duration by a few turns (depending on ~sy~Strength~/~ and ~sy~Agility~/~).;~r~无法移动到其他方格~/~。##跳过一个回合会令这个效果存续时间 ~lg~缩短~/~若干回合（缩短幅度取决于你的~sy~力量~/~和~sy~敏捷~/~）;~r~Kann sich nicht auf andere Felder bewegen~/~##Überspringen einer Runde ~lg~reduziert ~/~ die Effektdauer um ein paar Runden (abhängig von ~sy~Stärke~/~ und ~sy~Beweglichkeit~/~).;~r~No te puedes mover a otras casillas~/~##Saltarse un turno ~lg~reduce~/~ la duración del efecto algunos turnos (cuántos dependerá de tu ~sy~Fuerza~/~ y tu ~sy~Agilidad~/~).;~r~Impossible de se déplacer sur d'autres cases~/~##Passer un tour ~lg~réduit~/~ la durée de l'effet de quelques tours (en fonction de la ~sy~Force~/~ et de ~sy~l'Agilité~/~).;~r~Impossibile compiere movimenti~/~##Saltare un turno ~lg~riduce~/~ la durata dell'effetto di alcuni turni (determinati dalla tua ~sy~Forza~/~ e ~sy~Agilità~/~). ;~r~Não pode se mover para outros espaços~/~##Pular um turno ~lg~reduz~/~ a duração do efeito em alguns turnos (dependendo da ~sy~Força~/~ e ~sy~Agilidade~/~).;~r~Uniemożliwia przemieszczanie się~/~##Pominięcie tury ~lg~skraca~/~ czas trwania efektu o kilka tur (w zależności od ~sy~siły~/~ i ~sy~zręczności~/~ postaci).;~r~Diğer karolara hareket edemez~/~##Tur atlamak, (~sy~Güç~/~ ve ~sy~Çeviklik~/~ seviyesine bağlı olarak) etkinin süresini birkaç tur ~lg~azaltır~/~.;~r~別のタイルに移動できない~/~##ターンをスキップすることで効果時間を数ターン~lg~短縮~/~することができる（短縮幅は~sy~筋力~/~と~sy~敏捷性~/~に依存する）;~r~다른 타일로 이동할 수 없습니다.~/~##턴을 건너뛰면 효과의 지속 시간이 (~sy~근력~/~ 및 ~sy~민첩성~/~에 따라) 몇 턴 정도 ~sy~감소합니다.~/~;\"" +
+                    "";
 
                 foreach (string item in input)
                 {
