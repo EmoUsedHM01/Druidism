@@ -1,0 +1,55 @@
+stick_to_snake
+Stick to Snake
+Throw a stick, then transmute it into a ~y~Snake~/~ that will fight alongside you.\\nOnly one of each unique ~w~Summon~/~ may exist at a time.
+
+animal_friendship
+Animal Friendship
+Animals will no longer flee from your presence and never attack you unless attacked first.
+
+celestial_strike
+Celestial Strike
+Launches a bolt that, depending on the time of day, deals between ~p~12~/~ Arcane and ~y~12~/~ Sacred damage.\\nSuccessful casts grant between ~p~12%~/~ Energy Restoration and ~y~12%~/~ Block Power Recovery for ~w~4~/~ turns.
+
+attune_the_sky
+Attune to the Sky
+Based on time of day, grant the player between ~p~24%~/~ Hunger Resistance and ~p~12%~/~ Damage Reduction, and ~y~24%~/~ Fatigue Resistance and ~y~12%~/~ Cooldown Reduction.
+
+attune_the_earth
+Attune to the Earth
+~lg~Double~/~ the effects of all herbs.\\nGrants ~lg~20%~/~ increased Healing Efficiency and ~lg~10%~/~ increased Health Restoration.
+
+entangling_grasp
+Entangling Grasp
+Transform the roots and vines around you, ~lg~Rooting~/~ an enemy up to two tiles away.\\nDoesn't work on enemies immune to ~w~Nets~/~ or ~w~Webbing~/~.
+
+bestial_vigor
+Bestial Vigor
+Eating raw ~r~Meat~/~ no longer has negative effects and grants the ~lg~Vigor~/~ buff for ~w~120~/~ turns.
+
+wild_shape
+Wild Shape
+Transform into a ~y~Wolf~/~, gaining a large increase in Dodge Chance and Rending Damage.\\nThe transformation constantly drains ~b~Energy~/~ while active.\\nYou can’t use equipment or spells, but can use items.\\nRunning out of ~b~Energy~/~ or casting the skill again returns you to human form.
+
+shadows_to_fox
+Shadows to Fox
+Condense nearby shadows, forming them into a ~y~Fox~/~ that will fight alongside you.\\nOnly one of each unique ~w~Summon~/~ may exist at a time.
+
+butterflies_to_hornets
+Butterflies to Hornets
+Crush a newly hatched butterfly, transforming its remains into a ~y~Swarm of Deathstingers~/~ that will fight alongside you.\\nOnly one of each unique ~w~Summon~/~ may exist at a time.
+
+circle_of_life
+Circle of Life
+Grants ~lg~+10~/~ Max Health and ~lg~10%~/~ Fatigue Resistance.\\nGrants ~lg~2%~/~ Health Restoration for each missing ~r~percent~/~ of Health.
+
+healing_grace
+Healing Grace
+Immediately stabilise all injuries and heal the target by ~lg~30%~/~ of their Max Health.
+
+feral_nature
+Feral Nature
+Grants ~lg~+5%~/~ Crit and Miracle chance.\\nImproves your ~r~Wild Shape~/~ stats by ~lg~50%~/~ and allows spell-casting while transformed.
+
+bear_aspect
+Bear Aspect
+Turns your ~r~Wild Shape~/~ form into a ~y~Bear~/~ instead, enhancing the stats gained from the transformation by an additional ~lg~100%~/~.

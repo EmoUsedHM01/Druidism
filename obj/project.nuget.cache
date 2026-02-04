@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tzSaZ5wR4IE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joema\\Desktop\\ModShard\\ModSources\\Druidism\\Druidism.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joema\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
+    "C:\\Users\\joema\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "C:\\Users\\joema\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512",
+    "C:\\Users\\joema\\.nuget\\packages\\system.text.regularexpressions\\4.3.1\\system.text.regularexpressions.4.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}
