@@ -20,3 +20,6 @@ if (bear)
     buff_snd = snd_bear_agr_phase1
 else
     buff_snd = snd_wolf_howl_1
+    HP = 0
+    max_hp = 0
+    _buffId = id
